@@ -7554,13 +7554,18 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Pandas is a powerful Python library that is used for data manipulation and analysis.<ul>
-<li>It provides data structures and operations for manipulating numerical tables and time series.</li>
-<li>The primary data structure in Pandas is the DataFrame, which can be thought of as a table of data with rows and columns.</li>
+<li><p><code>Pandas</code> is a powerful Python library that is used for data manipulation and analysis.</p>
+<ul>
+<li><p>It provides data structures and operations for manipulating numerical tables and time series.</p>
+</li>
+<li><p>The primary data structure in Pandas is the DataFrame, which can be thought of as a table of data with rows and columns.</p>
+</li>
 </ul>
 </li>
-<li>Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.</li>
-<li>Matplotlib.pyplot is a state-based interface to matplotlib. It provides an implicit, MATLAB-like, way of plotting. It also opens figures on your screen, and acts as the figure GUI manager.</li>
+<li><p><code>Matplotlib</code> is a comprehensive library for creating static, animated, and interactive visualizations in Python.</p>
+</li>
+<li><p><code>Matplotlib.pyplot</code> is a state-based interface to matplotlib. It provides an implicit, MATLAB-like, way of plotting. It also opens figures on screen, and acts as the figure GUI manager.</p>
+</li>
 </ul>
 </div>
 </div>
@@ -7587,10 +7592,14 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>An IPython magic command to set the display format of embedded graphics in Jupyter Notebook.</li>
-<li>The graphic format is set to SVG (Scalable Vector Graphics).<ul>
-<li>SVG is a language that uses XML to describe 2D graphics.</li>
-<li>Using the SVG format, you can enlarge the chart without distortion, so that the chart remains clear on the high-resolution display device.</li>
+<li><p>An <code>IPython</code> magic command to set the display format of embedded graphics in Jupyter Notebook.</p>
+</li>
+<li><p>The graphic format is set to SVG (Scalable Vector Graphics).</p>
+<ul>
+<li><p>SVG is a language that uses XML to describe 2D graphics.</p>
+</li>
+<li><p>Using the SVG format, you can enlarge the chart without distortion, so that the chart remains clear on the high-resolution display device.</p>
+</li>
 </ul>
 </li>
 </ul>
@@ -7606,7 +7615,7 @@ a.anchor-link {
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">warnings</span>
-<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">'ignore'</span><span class="p">)</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s2">"ignore"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7620,8 +7629,10 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>The warnings module used to control warning messages in Python.</li>
-<li>Instruct Python to ignore all warning messages.<ul>
+<li><p>The <code>warnings</code> used to control warning messages in Python.</p>
+</li>
+<li><p>Instruct Python to ignore all warning messages.</p>
+<ul>
 <li>This can make the output of Jupyter Notebook look cleaner, especially when performing data analysis and visualization, and some operations may trigger warnings (such as outdated functions or behaviors that will change in the future).</li>
 </ul>
 </li>
@@ -7831,9 +7842,12 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Return the first <em>n</em> (int, default 5) rows.</li>
-<li><code>.head()</code> returns the first <em>n</em> rows for the object based on position.</li>
-<li>It is useful for quickly testing if your object has the right type of data in it.</li>
+<li><p>Return the first <em><strong>n</strong></em> (int, default 5) rows.</p>
+</li>
+<li><p><code>.head()</code> returns the first <em><strong>n</strong></em> rows for the object based on position.</p>
+</li>
+<li><p>It is useful for quickly testing if your object has the right type of data in it.</p>
+</li>
 </ul>
 </div>
 </div>
@@ -7903,7 +7917,7 @@ memory usage: 83.7+ KB
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Print a concise summary of a DataFrame.</p>
 <ul>
-<li>This method prints information about a DataFrame including the index dtype and columns, non-null values and memory usage.</li>
+<li><code>.info()</code> prints information about a DataFrame including the index dtype and columns, non-null values and memory usage.</li>
 </ul>
 </div>
 </div>
@@ -8064,7 +8078,7 @@ memory usage: 83.7+ KB
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Generate descriptive statistics.</p>
 <ul>
-<li>Descriptive statistics include those that summarize the central tendency, dispersion and shape of a dataset’s distribution, excluding <code>NaN</code> values.</li>
+<li><code>.describe()</code> include those that summarize the central tendency, dispersion and shape of a dataset’s distribution, excluding <code>NaN</code> values.</li>
 </ul>
 </div>
 </div>
@@ -8099,7 +8113,7 @@ memory usage: 83.7+ KB
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">'Age'</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'Age'</span><span class="p">]</span><span class="o">.</span><span class="n">median</span><span class="p">(),</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">"Age"</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">"Age"</span><span class="p">]</span><span class="o">.</span><span class="n">median</span><span class="p">(),</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8112,9 +8126,9 @@ memory usage: 83.7+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>This code fills in missing age values with the median of the age values and allows to modify the DataFrame directly on the original variable without needing to assign the result back to the DataFrame.</p>
 <ul>
-<li><code>.fillna</code> : Fill NA/NaN values using the specified method.</li>
-<li>The line of code fills in missing age values with the median of the age values and allows to modify the DataFrame directly on the original variable without needing to assign the result back to the DataFrame .</li>
+<li><code>.fillna</code> fill NA/NaN values using the specified method.</li>
 </ul>
 </div>
 </div>
@@ -8138,7 +8152,7 @@ memory usage: 83.7+ KB
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">'Cabin'</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s2">"Cabin"</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8152,9 +8166,12 @@ memory usage: 83.7+ KB
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>The percentage of missing values is high, and it becomes challenging to use the column effectively in the analysis without introducing bias or errors through data imputation.</li>
-<li>The 'Cabin' column contains categorical (non-numeric) data, represented as strings in Python (hence the data type 'object').</li>
-<li>Imputing missing values in categorical data can be more complex than with numerical data.</li>
+<li><p>The percentage of missing values is high, and it becomes challenging to use the column effectively in the analysis without introducing bias or errors through data imputation.</p>
+</li>
+<li><p>The "Cabin" column contains categorical (non-numeric) data, represented as strings in Python (hence the data type "object").</p>
+</li>
+<li><p>Imputing missing values in categorical data can be more complex than with numerical data.</p>
+</li>
 </ul>
 </div>
 </div>
@@ -8251,10 +8268,14 @@ memory usage: 83.7+ KB
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ol>
-<li>Select two columns from the DataFrame, 'Sex', which likely contains gender information (e.g., male or female), and 'PassengerId', which likely contains a unique identifier for each passenger.</li>
-<li>Groups the DataFrame by the 'Sex' column. All entries with the same sex are grouped together.<ul>
-<li>This aggregation function is applied to each gender group, counting the number of entries in each group.</li>
-<li>Moreover, 'PassengerId' is unique for each passenger, this counts the number of passengers of each gender.</li>
+<li><p>Select two columns from the DataFrame, "Sex", which likely contains gender information (e.g., male or female), and "PassengerId", which likely contains a unique identifier for each passenger.</p>
+</li>
+<li><p>Groups the DataFrame by the "Sex" column. All entries with the same sex are grouped together.</p>
+<ul>
+<li><p>This aggregation function is applied to each gender group, counting the number of entries in each group.</p>
+</li>
+<li><p>Moreover, "PassengerId" is unique for each passenger, this counts the number of passengers of each gender.</p>
+</li>
 </ul>
 </li>
 </ol>
@@ -8305,7 +8326,7 @@ memory usage: 83.7+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Select the 'Age' column from the DataFrame and calculate the average age of all entries in the 'Age' column that are not missing (<code>NaN</code> values are automatically excluded from this calculation).</p>
+<p>Select the "Age" column from the DataFrame and calculate the average age of all entries in the "Age" column that are not missing (<code>NaN</code> values are automatically excluded from this calculation).</p>
 </div>
 </div>
 </div>
@@ -8328,7 +8349,7 @@ memory usage: 83.7+ KB
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">survival_rates</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Pclass'</span><span class="p">)[</span><span class="s1">'Survived'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">survival_rates</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">"Pclass"</span><span class="p">)[</span><span class="s2">"Survived"</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
@@ -8341,14 +8362,16 @@ memory usage: 83.7+ KB
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<ul>
-<li>This method returns a Pandas Series.</li>
-</ul>
+<p>This method returns a Pandas Series.</p>
 <ol>
-<li>Group the DataFrame by the column 'Pclass', which represents the passenger class (1, 2,  3). Each unique value in 'Pclass' forms a group.</li>
-<li>After grouping, this selects the 'Survived' column from each group. 'Survived' typically contains binary values: 1 for survived and 0 for did not survive. Calculate the mean of the 'Survived' column for each group. Because 'Survived' is binary, the mean here represents the proportion of survivors within each passenger class.<ul>
-<li>The index of the Series is 'Pclass', which makes it straightforward to use as the x-values in a plot.</li>
-<li>The values of the Series are the survival rates, which are used as the y-values in the plot.</li>
+<li><p>Group the DataFrame by the column "Pclass", which represents the passenger class (1, 2,  3). Each unique value in "Pclass" forms a group.</p>
+</li>
+<li><p>After grouping, this selects the "Survived" column from each group. "Survived" typically contains binary values: 1 for survived and 0 for did not survive. Calculate the mean of the "Survived" column for each group. Because "Survived" is binary, the mean here represents the proportion of survivors within each passenger class.</p>
+<ul>
+<li><p>The index of the Series is "Pclass", which makes it straightforward to use as the x-values in a plot.</p>
+</li>
+<li><p>The values of the Series are the survival rates, which are used as the y-values in the plot.</p>
+</li>
 </ul>
 </li>
 </ol>
@@ -8386,9 +8409,9 @@ memory usage: 83.7+ KB
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">survival_rates</span><span class="o">.</span><span class="n">index</span><span class="p">,</span> <span class="n">survival_rates</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">width</span> <span class="o">=</span> <span class="mf">0.4</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">'Passenger Class'</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">'Survival Rate'</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">'Survival Rate by Passenger Class'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">"Passenger Class"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">"Survival Rate"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">"Survival Rate by Passenger Class"</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">survival_rates</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
@@ -8460,6 +8483,16 @@ memory usage: 83.7+ KB
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>This analysis mentions the importance of thorough data preparation through cleansing and exploratory analysis. By ensuring that the data is clean and easy to understand, the analysis can be carried out on a solid foundation for reliable insights. Overall, the project highlights the critical role of data cleansing by reflecting how proper data management and analytics techniques can transform raw data into meaningful information and insights.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>
